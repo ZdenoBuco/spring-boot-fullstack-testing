@@ -29,7 +29,16 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
+
+
 		<dependency>
+<!--scope: we're using this dependency only for testing purposes
+	It include:
+	- AssertJ (Ctrl + click on spring-boot-starter-test)
+	- hamcrest - another Assertion library
+	- junit
+	- mockito
+-->
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
